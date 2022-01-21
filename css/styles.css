@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-wrapper {
+    width: 100%;
+}
+
+header{
+    height: 25vh;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+li, a, button {
+    /* font-family: ;*/
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.center-wrapper-one {
+    height: 25vh;
+}
+
+.center-wrapper-two {
+    height: 25vh;
+    background-color: #E5E7EB;
+}
+
+.center-wrapper-three {
+    height: 20vh;
+}
+
+.footer-wrapper {
+    height: 5vh;
+    background-color: #1F2937;
+}
