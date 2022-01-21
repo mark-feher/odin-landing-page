@@ -8,18 +8,47 @@
     width: 100%;
 }
 
-header{
+.header-wrapper {
     height: 25vh;
     background-color: #1F2937;
+}
+
+.header-wrapper header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 li, a, button {
     /* font-family: ;*/
     font-size: 24px;
     color: #F9FAF8;
+    text-decoration: none;
 }
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #3882F6;
+}
+
 
 .center-wrapper-one {
     height: 25vh;
@@ -38,3 +67,5 @@ li, a, button {
     height: 5vh;
     background-color: #1F2937;
 }
+
+
