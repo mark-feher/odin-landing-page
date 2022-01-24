@@ -60,6 +60,7 @@ li {
     justify-content: center;
     padding: 100px;
     gap: 50px;
+    flex: 1;
 }
 
 .hero-text-main {
@@ -101,16 +102,24 @@ li {
 }
 
 /* Center section one */
+
 .center-section-one-flex-container {
     display: flex;
     flex-direction: row;
+    /* Justify content a align items by mali centrovat flex-itemy */
     justify-content: center;
     align-items: center;
+    /* Zisti ako centrovat flex-itemy vertikalne */
     gap: 50px;
+}
+
+.center-section-heading {
+    text-align: center;
 }
 
 .center-section-card {
     flex-direction: column;
+    margin: 50px 10px;
 }
 
 .center-section-card .card-top {
@@ -126,3 +135,29 @@ li {
     width: 100px;
     height: 50px;
 }
+
+/* Center section two */
+
+.quote-container {
+    margin: auto;
+    padding: 50px 50px;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 18px;
+    text-align: end;
+    font-weight: bolder;
+    color: #1F2937
+}
+
+/* Center section three */
