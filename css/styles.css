@@ -10,15 +10,22 @@
 .header-wrapper,
 .center-section-one,
 .center-section-two {
-    height: 100vh;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
 }
 
 .center-section-three {
-    height: 50vh;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-wrapper {
-    height: 5vh;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-wrapper,
@@ -39,11 +46,17 @@ header {
     padding: 10px 50px;
 }
 
+nav ul{
+    list-style: none;
+}
+
 a, 
 li {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+    display: inline-block;
+    padding: 5px 5px;
 }
 
 .logo {
@@ -57,10 +70,11 @@ li {
 
 .hero-section {
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    padding: 100px;
+    align-items: center;
     gap: 50px;
-    flex: 1;
 }
 
 .hero-text-main {
@@ -106,10 +120,10 @@ li {
 .center-section-one-flex-container {
     display: flex;
     flex-direction: row;
-    /* Justify content a align items by mali centrovat flex-itemy */
     justify-content: center;
     align-items: center;
-    /* Zisti ako centrovat flex-itemy vertikalne */
+    width: 100%;
+    height: 100%;
     gap: 50px;
 }
 
@@ -123,8 +137,8 @@ li {
 }
 
 .center-section-card .card-top {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     border-style: solid;
     border-width: 4px;
     border-color: #3882F6;
@@ -132,19 +146,17 @@ li {
 }
 
 .center-section-card .card-bottom {
-    width: 100px;
+    width: 200px;
     height: 50px;
+    text-align: center;
 }
 
 /* Center section two */
-
-.quote-container {
-    margin: auto;
-    padding: 50px 50px;
-    width: 80%;
-    height: 80%;
+.center-section-two {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 0 20%;
 }
 
 .quote-text {
@@ -161,3 +173,43 @@ li {
 }
 
 /* Center section three */
+.call-to-action {
+    background-color: #3882F6;
+    width: 750px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 50px;
+}
+
+.cta-button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-main-text {
+    color: #F9FAF8;
+}
+
+.cta-secondary-text {
+    color: #E5E7EB;
+}
+
+/* Footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
